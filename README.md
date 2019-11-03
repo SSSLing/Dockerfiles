@@ -17,9 +17,6 @@ root@root:/your/path# nvidia-docker run --rm -it \
                                         runenv:?
 #注意："/tmp/.X11-unix/X?:/tmp/.X11-unix/X?:rw"里的X?需要根据显示器编号更改，0号就写X0，1号就写X1，依次类推;runenv:?改成指定的版本
 ```
-# 获取docker
-[docker镜像](https://docker.hobot.cc/harbor/projects/21/repositories/honda_ddp%2Fsim%2Frunenv "Harbor")从公司Harbor获取镜像，需要[配置本地Client](http://wiki.hobot.cc/display/DEVOPS/docker+registry+harbor "配置教程")  
-或者可以从我个人的[ftp服务器](ftp://10.101.35.207/DockerImages/) 里获取镜像文件，然后load到本地
 # base
 - 基镜像：
   - nvidia/cudagl:9.0-devel-ubuntu16.04
