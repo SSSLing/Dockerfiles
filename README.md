@@ -59,6 +59,7 @@ root@root:/your/path# nvidia-docker run --rm -it \
   - sumo
   - nlopt 2.5.0
   - Ipopt 3.12.13
+  - Ipopt 3.13.1
   - Ceres 1.14.0
   - qpOASES 3.2.1
   - osqp 0.5.0
